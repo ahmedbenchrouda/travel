@@ -1,0 +1,86 @@
+html,body{
+  margin: 0;
+}
+header{
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  color: white;
+  height: 55px;
+  align-items: center;
+}
+.img{
+  width: 24px;
+  margin-right: 7px;
+}
+.h{
+  margin-left: 7px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: initial;
+}
+.journal{
+  display: flex;
+  margin-bottom: 36px;
+}
+.container-s{
+  margin:40px 45px;
+  
+}
+.img-place-container{
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+.main-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.japan{
+text-transform: uppercase;
+margin-right: 3px;
+font-size: 0.7rem;
+
+}
+.location-img{
+width: 7px;
+margin-right: 10px;
+
+}
+.container{
+  margin: 4px;
+}
+.google{
+  margin-left: 10px;
+  color: #2B283A;
+    font-size: 0.8rem;
+   
+
+}
+.google:visited{
+   color: #918E9B;
+}
+.city{
+      margin-top: 7px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}    
+.date{
+  font-weight: bold;
+}
+.entry-container {
+  max-width: 500px; /* or whatever fits your layout */
+}
+
+
+.describe-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  max-width: 100%; /* optional: may help if flex container is squeezing it */
+}
