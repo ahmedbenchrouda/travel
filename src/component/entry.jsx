@@ -6,7 +6,7 @@ export default function Entry (Props){
     <div className="entry-container">      
         <img src="/assets/marker.png" className="location-img" alt="" />
         <span  className="japan">{Props.country}</span>
-        <a href={Props. googleMapsLink} className="google" >view here in google</a>
+        <a href={Props. googleMapsLink} className="google" >view here inn google</a>
         <h2 className="city">{Props.title}</h2>
     <p className="date">{Props.text}</p>
    
